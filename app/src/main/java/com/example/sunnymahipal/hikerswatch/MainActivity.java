@@ -83,15 +83,25 @@ public class MainActivity extends AppCompatActivity {
                 if(listAddresses.get(0).getFeatureName() != null){
                     address += listAddresses.get(0).getFeatureName() + "\n";
                 }
-
-                if(listAddresses.get(0).getAdminArea() != null){
-                    address += listAddresses.get(0).getAdminArea() + "\n";
+                if(listAddresses.get(0).getThoroughfare() != null){
+                    address += listAddresses.get(0).getThoroughfare() + "\n";
+                }
+                if(listAddresses.get(0).getSubLocality() != null){
+                    address += listAddresses.get(0).getSubLocality() + "\n";
                 }
                 if(listAddresses.get(0).getLocality() != null){
                     address += listAddresses.get(0).getLocality() + "\n";
                 }
-                if(listAddresses.get(0).getThoroughfare() != null){
-                    address += listAddresses.get(0).getThoroughfare() + "\n";
+
+                if(listAddresses.get(0).getAdminArea() != null){
+                    address += listAddresses.get(0).getAdminArea() + "\n";
+                }
+                if(listAddresses.get(0).getPremises() != null){
+                    address += listAddresses.get(0).getPremises() + "\n";
+                }
+
+                if(listAddresses.get(0).getCountryName() != null){
+                    address += listAddresses.get(0).getCountryName() + "\n";
                 }
                 if(listAddresses.get(0).getPostalCode() != null){
                     address += listAddresses.get(0).getPostalCode() + "\n";
